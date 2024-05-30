@@ -4,7 +4,7 @@
 -- Create a report showing appetizers and beverages.
 -- Create a report with all items except beverages.
 
-SELECT Type, Name, Price, Description 
+SELECT Type, Price, DescriptionName,  
 FROM Dishes 
 ORDER BY Price;
 
